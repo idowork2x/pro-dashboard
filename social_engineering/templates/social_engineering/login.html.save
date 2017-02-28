@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Protiviti Dashboard Login Page</title>
+		<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="{% static 'css/login.css' %}">
+		<link rel="stylesheet/less" href="{% static 'css/login.less' %}">
+		<link rel="stylesheet/less" href="css/login.less" type="text/css" />
+		<script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<h1>Welcome</h1>
+		
+				<form class="form">
+					<input type="text" placeholder="Username">
+					<input type="password" placeholder="Password">
+					<button type="submit" id="login-button">Login</button>
+				</form>
+			</div>
+			<footer>Copyright &copy; Protiviti.com</footer>
+		</div>
+	</body>
+</html>
+

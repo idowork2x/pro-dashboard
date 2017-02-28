@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Protiviti Dashboard Login Page</title>
+		<!-- CSS -->
+		<link rel="stylesheet/less" href="{% static 'css/login.less' %}">
+		
+		<!-- Scripts -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="{% static 'js/login.js' %}"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Welcome</h1>
+		
+			<form class="form">
+				<input type="text" placeholder="Username">
+				<input type="password" placeholder="Password">
+				<button type="submit" id="login-button">Login</button>
+			</form>
+		</div>
+		<footer>Copyright &copy; Protiviti.com</footer>
+	</body>
+</html>
+
